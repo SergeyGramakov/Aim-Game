@@ -101,7 +101,6 @@ function showLeaderBoard() {
     leaderBoard.innerHTML = `Leaderboard for ${timeMode} seconds mode:<br>
     ${players[0].name}: <span>${players[0].score}</span><br>
     ${players[1].name}: <span>${players[1].score}</span><br>
-    -------------------------------------------<br>
     ${players[2].name}: <span>${players[2].score}</span><br>`;
 }
 
